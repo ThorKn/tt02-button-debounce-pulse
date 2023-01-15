@@ -21,8 +21,8 @@ documentation:
   discord:      ""      # Your discord handle - make sure to include the # part as well
   title:        "Button Debounce Pulse"      # Project title
   description:  "Takes the input from a connected pushbutton and outputs a debounced pulse"      # Short description of what your project does
-  how_it_works: ""      # Longer description of how the project works
-  how_to_test:  ""      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  how_it_works: "A slow clock triggers two flip-flops"      # Longer description of how the project works
+  how_to_test:  "Put a slow clock on input 1, like 100Hz. Input 2 is a reset wire. Connect a Pushbutton to Input 3 and an LED to Output 1. Press the pushbutton and the LED shows a short blink pulse."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  "pusbutton, led"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
